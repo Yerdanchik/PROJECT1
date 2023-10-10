@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стили для header */
+header {
+    background-image:  url(https://bogatyr.club/uploads/posts/2023-01/thumbs/1674826162_bogatyr-club-p-fon-dlya-internet-magazina-fon-vkontakte-3.jpg);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Стили для main */
+main {
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20230612/pngtree-graph-of-stock-prices-on-black-background-image_2877387.jpg); 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+    color: #fff;
+}
+
+.content {
+    flex: 2;
+    margin-right: 100px;
+}
+
+.sidebar {
+    flex: 1;
+    background-image: url(https://bogatyr.club/uploads/posts/2023-01/thumbs/1674826162_bogatyr-club-p-fon-dlya-internet-magazina-fon-vkontakte-3.jpg);
+    padding: 120px;
+    color: #fff;
+}
+
+/* Стили для footer */
+footer {
+    background-image: url(https://bogatyr.club/uploads/posts/2023-01/thumbs/1674826162_bogatyr-club-p-fon-dlya-internet-magazina-fon-vkontakte-3.jpg);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Медиа-запросы для адаптивности */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    .content {
+        margin-right: 0;
+    }
+}

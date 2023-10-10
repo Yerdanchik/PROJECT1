@@ -1,0 +1,60 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://ngcmshak.ru/uploads/dsn/fe/72/001/1587646418_38-p-besshovnie-foni-dlya-saitov-112.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: lightcyan;
+    margin-top: 150px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-image: url(https://prodengiblog.ru/wp-content/uploads/2016/05/3.jpg);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: lightcyan;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+button {
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    background-color:cyan-blue;
+}
+
+

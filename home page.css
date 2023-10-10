@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://img.freepik.com/premium-vector/background-paper-art-style-can-be-used-in-website-backgrounds-or-advertising-white-abstract-texture-white-background-v_74231-301.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #555;
+}
+
+table {
+    max-width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+ul, ol, dl {
+    margin: 20px;
+}
+
+li, dt, dd {
+    margin-bottom: 10px;
+}
+
+
